@@ -1,0 +1,79 @@
+version: '3.8'
+
+services:
+  # Main application
+  app:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: autonomous-ai-team
+    ports:
+      - "8000:8000"
+    environment:
+      - ENVIRONMENT=${ENVIRONMENT:-development}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+      - BRAVE_API_KEY=${BRAVE_API_KEY}
+      - SERPAPI_KEY=${SERPAPI_KEY}
+      - DATABASE_URL=${DATABASE_URL:-sqlite:///./ai_agents.db}
+      - REDIS_URL=redis://redis:6379/0
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+      - DEFAULT_MODEL=${DEFAULT_MODEL:-claude-sonnet-4-5}
+      - MAX_TOKENS=${MAX_TOKENS:-4096}
+      - TEMPERATURE=${TEMPERATURE:-0.7}
+    volumes:
+      - ../:/app
+      - app-data:/app/data
+    depends_on:
+      - redis
+    restart: unless-stopped
+    networks:
+      - ai-team-network
+
+  # Redis for caching and task queue
+  redis:
+    image: redis:7-alpine
+    container_name: ai-team-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    command: redis-server --appendonly yes
+    restart: unless-stopped
+    networks:
+      - ai-team-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # PostgreSQL (optional - uncomment if you want to use PostgreSQL instead of SQLite)
+  # postgres:
+  #   image: postgres:15-alpine
+  #   container_name: ai-team-postgres
+  #   environment:
+  #     - POSTGRES_USER=aiagents
+  #     - POSTGRES_PASSWORD=aiagents_password
+  #     - POSTGRES_DB=aiagents
+  #   ports:
+  #     - "5432:5432"
+  #   volumes:
+  #     - postgres-data:/var/lib/postgresql/data
+  #   restart: unless-stopped
+  #   networks:
+  #     - ai-team-network
+  #   healthcheck:
+  #     test: ["CMD-SHELL", "pg_isready -U aiagents"]
+  #     interval: 30s
+  #     timeout: 10s
+  #     retries: 3
+
+volumes:
+  app-data:
+  redis-data:
+  # postgres-data:  # Uncomment if using PostgreSQL
+
+networks:
+  ai-team-network:
+    driver: bridge
