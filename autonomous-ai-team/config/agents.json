@@ -1,0 +1,180 @@
+{
+  "agents": {
+    "manager": {
+      "id": "manager",
+      "name": "Manager Agent",
+      "specialty": "task_orchestration",
+      "description": "Central orchestrator that routes tasks to specialist agents and manages workflows",
+      "prompt_file": "config/prompts/manager.md",
+      "model": "claude-sonnet-4-5",
+      "temperature": 0.7,
+      "max_tokens": 4096,
+      "max_iterations": 15,
+      "capabilities": [
+        "task_routing",
+        "multi_agent_coordination",
+        "quality_validation",
+        "human_approval_workflows"
+      ],
+      "available_tools": [
+        "web_search",
+        "extract_data_from_url",
+        "store_context",
+        "call_analyst_agent",
+        "call_growth_hacker_agent",
+        "call_sales_machine_agent",
+        "call_system_builder_agent",
+        "call_brand_builder_agent",
+        "request_human_approval"
+      ],
+      "cost_per_1k_input_tokens": 0.003,
+      "cost_per_1k_output_tokens": 0.015
+    },
+    "analyst": {
+      "id": "analyst",
+      "name": "Analyst Agent",
+      "specialty": "market_research_and_analysis",
+      "description": "Market research, competitive analysis, and opportunity identification specialist",
+      "prompt_file": "config/prompts/analyst.md",
+      "model": "claude-sonnet-4-5",
+      "temperature": 0.5,
+      "max_tokens": 4096,
+      "max_iterations": 10,
+      "capabilities": [
+        "market_research",
+        "competitive_analysis",
+        "opportunity_identification",
+        "data_driven_insights"
+      ],
+      "available_tools": [
+        "web_search",
+        "extract_data_from_url",
+        "store_context"
+      ],
+      "cost_per_1k_input_tokens": 0.003,
+      "cost_per_1k_output_tokens": 0.015,
+      "quality_metrics": {
+        "min_data_sources": 3,
+        "require_urls": true,
+        "require_concrete_numbers": true
+      }
+    },
+    "growth_hacker": {
+      "id": "growth_hacker",
+      "name": "Growth Hacker Agent",
+      "specialty": "customer_acquisition_and_growth",
+      "description": "Customer acquisition strategies, growth experiments, and rapid scaling specialist",
+      "prompt_file": "config/prompts/growth_hacker.md",
+      "model": "claude-sonnet-4-5",
+      "temperature": 0.8,
+      "max_tokens": 4096,
+      "max_iterations": 10,
+      "capabilities": [
+        "growth_strategy_design",
+        "experiment_frameworks",
+        "viral_mechanics",
+        "metrics_tracking"
+      ],
+      "available_tools": [
+        "web_search",
+        "extract_data_from_url",
+        "store_context"
+      ],
+      "cost_per_1k_input_tokens": 0.003,
+      "cost_per_1k_output_tokens": 0.015,
+      "quality_metrics": {
+        "require_ice_scores": true,
+        "require_success_metrics": true,
+        "require_timeline": true
+      }
+    },
+    "sales_machine": {
+      "id": "sales_machine",
+      "name": "Sales Machine Agent",
+      "specialty": "sales_copy_and_conversion",
+      "description": "High-converting sales copy, landing pages, and email sequences specialist",
+      "prompt_file": "config/prompts/sales_machine.md",
+      "model": "claude-sonnet-4-5",
+      "temperature": 0.9,
+      "max_tokens": 4096,
+      "max_iterations": 8,
+      "capabilities": [
+        "sales_copywriting",
+        "offer_design",
+        "email_sequences",
+        "objection_handling",
+        "conversion_optimization"
+      ],
+      "available_tools": [
+        "web_search",
+        "extract_data_from_url",
+        "store_context"
+      ],
+      "cost_per_1k_input_tokens": 0.003,
+      "cost_per_1k_output_tokens": 0.015,
+      "quality_metrics": {
+        "require_cta": true,
+        "require_ab_variants": true,
+        "require_objection_handling": true
+      }
+    },
+    "system_builder": {
+      "id": "system_builder",
+      "name": "System Builder Agent",
+      "specialty": "process_automation_and_scaling",
+      "description": "Process documentation, automation workflows, and scaling playbooks specialist",
+      "prompt_file": "config/prompts/system_builder.md",
+      "model": "claude-sonnet-4-5",
+      "temperature": 0.6,
+      "max_tokens": 4096,
+      "max_iterations": 10,
+      "capabilities": [
+        "process_mapping",
+        "automation_design",
+        "sop_creation",
+        "scaling_playbooks"
+      ],
+      "available_tools": [
+        "web_search",
+        "extract_data_from_url",
+        "store_context"
+      ],
+      "cost_per_1k_input_tokens": 0.003,
+      "cost_per_1k_output_tokens": 0.015,
+      "quality_metrics": {
+        "require_step_by_step": true,
+        "require_roi_calculation": true,
+        "require_success_criteria": true
+      }
+    },
+    "brand_builder": {
+      "id": "brand_builder",
+      "name": "Brand Builder Agent",
+      "specialty": "content_and_authority_building",
+      "description": "Content strategy, SEO optimization, and thought leadership specialist",
+      "prompt_file": "config/prompts/brand_builder.md",
+      "model": "claude-sonnet-4-5",
+      "temperature": 0.85,
+      "max_tokens": 4096,
+      "max_iterations": 8,
+      "capabilities": [
+        "content_strategy",
+        "seo_optimization",
+        "social_media_content",
+        "thought_leadership"
+      ],
+      "available_tools": [
+        "web_search",
+        "extract_data_from_url",
+        "store_context"
+      ],
+      "cost_per_1k_input_tokens": 0.003,
+      "cost_per_1k_output_tokens": 0.015,
+      "quality_metrics": {
+        "require_seo_keywords": true,
+        "require_cta": true,
+        "min_word_count": 300
+      }
+    }
+  }
+}

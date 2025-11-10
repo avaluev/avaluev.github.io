@@ -68,7 +68,11 @@ dmypy.json
 # Data
 data/
 *.csv
-*.json
+# Ignore data JSON files but not config JSON files
+data/**/*.json
+*.data.json
+# Keep config files
+!config/**/*.json
 
 # Temporary files
 tmp/
