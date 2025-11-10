@@ -1,0 +1,258 @@
+{
+  "test_cases": [
+    {
+      "id": "analyst_001",
+      "name": "Basic Market Analysis",
+      "agent": "analyst",
+      "task": "Analyze the AI-powered productivity tools market and identify top 3 opportunities for remote teams",
+      "context": {
+        "product_category": "productivity software",
+        "target_audience": "remote teams",
+        "budget": "$50,000"
+      },
+      "expected_outputs": {
+        "opportunities_count": 3,
+        "has_market_size": true,
+        "has_data_sources": true,
+        "min_data_sources": 3,
+        "has_competitive_analysis": true,
+        "has_revenue_potential": true
+      },
+      "quality_checks": [
+        "contains_specific_numbers",
+        "urls_are_valid",
+        "no_placeholder_text",
+        "actionable_recommendations"
+      ],
+      "max_cost_usd": 0.50,
+      "max_duration_seconds": 120
+    },
+    {
+      "id": "growth_001",
+      "name": "Growth Strategy for SaaS",
+      "agent": "growth_hacker",
+      "task": "Design a growth strategy to acquire 1,000 customers in 60 days for an AI code review tool",
+      "context": {
+        "current_customers": 50,
+        "monthly_revenue": "$2,500",
+        "budget": "$15,000",
+        "team_size": 3
+      },
+      "expected_outputs": {
+        "has_experiments": true,
+        "min_experiments": 3,
+        "has_ice_scores": true,
+        "has_timeline": true,
+        "has_success_metrics": true,
+        "has_resource_requirements": true
+      },
+      "quality_checks": [
+        "experiments_are_testable",
+        "metrics_are_specific",
+        "timeline_is_realistic",
+        "risks_are_addressed"
+      ],
+      "max_cost_usd": 0.40,
+      "max_duration_seconds": 90
+    },
+    {
+      "id": "sales_001",
+      "name": "Landing Page Copy",
+      "agent": "sales_machine",
+      "task": "Create a high-converting landing page copy for a project management tool for design teams",
+      "context": {
+        "product": "Project management for designers",
+        "main_benefit": "15% faster project delivery",
+        "target_audience": "creative agencies with 10-50 employees",
+        "price": "$49/month per team"
+      },
+      "expected_outputs": {
+        "has_headline": true,
+        "has_benefits": true,
+        "min_benefits": 3,
+        "has_cta": true,
+        "has_objection_handling": true,
+        "has_social_proof_section": true,
+        "has_ab_variants": true
+      },
+      "quality_checks": [
+        "headline_under_15_words",
+        "cta_is_specific",
+        "benefits_not_features",
+        "objections_preemptively_addressed"
+      ],
+      "max_cost_usd": 0.30,
+      "max_duration_seconds": 60
+    },
+    {
+      "id": "system_001",
+      "name": "Process Automation Design",
+      "agent": "system_builder",
+      "task": "Design an automation workflow for customer onboarding that currently takes 5 hours of manual work per customer",
+      "context": {
+        "current_process": "Manual email sending, account setup, training calls scheduling",
+        "customers_per_month": 20,
+        "team": "2 customer success managers"
+      },
+      "expected_outputs": {
+        "has_as_is_process": true,
+        "has_to_be_process": true,
+        "has_automation_opportunities": true,
+        "min_automation_opportunities": 2,
+        "has_roi_calculation": true,
+        "has_tool_recommendations": true,
+        "has_implementation_steps": true
+      },
+      "quality_checks": [
+        "roi_is_calculated",
+        "tools_are_specific",
+        "steps_are_actionable",
+        "time_savings_quantified"
+      ],
+      "max_cost_usd": 0.40,
+      "max_duration_seconds": 90
+    },
+    {
+      "id": "brand_001",
+      "name": "Content Strategy Creation",
+      "agent": "brand_builder",
+      "task": "Create a content strategy for a B2B SaaS company targeting engineering managers",
+      "context": {
+        "product": "Code review automation tool",
+        "target_audience": "Engineering managers at 50-500 person companies",
+        "content_goals": "SEO traffic, thought leadership, lead generation"
+      },
+      "expected_outputs": {
+        "has_content_pillars": true,
+        "min_content_pillars": 3,
+        "has_seo_keywords": true,
+        "has_content_calendar": true,
+        "has_distribution_strategy": true,
+        "has_sample_content": true
+      },
+      "quality_checks": [
+        "keywords_are_specific",
+        "content_calendar_is_detailed",
+        "includes_multiple_formats",
+        "has_success_metrics"
+      ],
+      "max_cost_usd": 0.35,
+      "max_duration_seconds": 75
+    },
+    {
+      "id": "manager_001",
+      "name": "Multi-Agent Orchestration",
+      "agent": "manager",
+      "task": "Help me launch a new SaaS product: research the market, design a growth strategy, and create landing page copy",
+      "context": {
+        "product": "AI-powered meeting assistant",
+        "stage": "pre-launch",
+        "budget": "$20,000",
+        "timeline": "Launch in 30 days"
+      },
+      "expected_outputs": {
+        "calls_multiple_agents": true,
+        "min_agent_calls": 3,
+        "coordinates_output": true,
+        "provides_integrated_plan": true,
+        "has_next_steps": true
+      },
+      "quality_checks": [
+        "agents_called_in_logical_order",
+        "outputs_are_synthesized",
+        "plan_is_cohesive",
+        "timeline_is_integrated"
+      ],
+      "max_cost_usd": 1.50,
+      "max_duration_seconds": 300
+    }
+  ],
+  "quality_criteria": {
+    "contains_specific_numbers": {
+      "description": "Output contains concrete numbers, not vague estimates",
+      "regex": "\\d+[%$kMB]",
+      "min_matches": 3
+    },
+    "urls_are_valid": {
+      "description": "All URLs are properly formatted",
+      "regex": "https?://[^\\s]+",
+      "validate_format": true
+    },
+    "no_placeholder_text": {
+      "description": "No placeholder text like [TODO], [FILL IN], etc.",
+      "regex": "\\[(TODO|FILL|TBD|XXX).*?\\]",
+      "should_not_match": true
+    },
+    "actionable_recommendations": {
+      "description": "Contains clear next steps or recommendations",
+      "keywords": ["next step", "recommend", "action", "should", "start with"],
+      "min_matches": 2
+    },
+    "experiments_are_testable": {
+      "description": "Growth experiments have clear hypothesis and metrics",
+      "keywords": ["hypothesis", "metric", "test", "measure"],
+      "min_matches": 3
+    },
+    "metrics_are_specific": {
+      "description": "Metrics are specific with targets",
+      "keywords": ["increase", "decrease", "reach", "achieve"],
+      "requires_numbers": true
+    },
+    "headline_under_15_words": {
+      "description": "Headline is concise (under 15 words)",
+      "section": "headline",
+      "max_words": 15
+    },
+    "cta_is_specific": {
+      "description": "CTA is action-oriented and specific",
+      "keywords": ["start", "get", "try", "download", "join"],
+      "section": "CTA"
+    },
+    "benefits_not_features": {
+      "description": "Focuses on benefits/outcomes, not just features",
+      "benefit_keywords": ["save", "reduce", "increase", "achieve", "get"],
+      "min_benefit_matches": 3
+    },
+    "roi_is_calculated": {
+      "description": "ROI or payback period is explicitly calculated",
+      "keywords": ["ROI", "payback", "return on investment", "savings"],
+      "requires_numbers": true
+    },
+    "tools_are_specific": {
+      "description": "Recommends specific tools by name",
+      "examples": ["Zapier", "Make", "HubSpot", "Intercom"],
+      "min_tool_mentions": 2
+    },
+    "keywords_are_specific": {
+      "description": "SEO keywords are specific, not generic",
+      "min_keywords": 5,
+      "min_keyword_length": 3
+    }
+  },
+  "performance_benchmarks": {
+    "response_time": {
+      "excellent": 30,
+      "good": 60,
+      "acceptable": 120,
+      "poor": 180
+    },
+    "token_efficiency": {
+      "input_tokens_per_task": {
+        "simple": 1500,
+        "medium": 3000,
+        "complex": 6000
+      },
+      "output_tokens_per_task": {
+        "simple": 1000,
+        "medium": 2000,
+        "complex": 4000
+      }
+    },
+    "cost_targets": {
+      "simple_task": 0.05,
+      "medium_task": 0.15,
+      "complex_task": 0.40,
+      "multi_agent_task": 1.00
+    }
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "tools": {
+    "web_search": {
+      "name": "web_search",
+      "description": "Search the web for information on a given topic. Returns top results with URLs, titles, and snippets. Use this for market research, competitor analysis, or finding current information.",
+      "category": "research",
+      "enabled": true,
+      "requires_api_key": true,
+      "api_key_env_var": "BRAVE_API_KEY",
+      "fallback_api_key_env_var": "SERPAPI_KEY",
+      "rate_limit_per_minute": 10,
+      "timeout_seconds": 30,
+      "max_results": 10,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "The search query"
+          },
+          "num_results": {
+            "type": "integer",
+            "description": "Number of results to return (1-20)",
+            "default": 10,
+            "minimum": 1,
+            "maximum": 20
+          }
+        },
+        "required": ["query"]
+      },
+      "cost_per_call": 0.001,
+      "quality_checks": {
+        "min_results": 3,
+        "require_valid_urls": true
+      }
+    },
+    "extract_data_from_url": {
+      "name": "extract_data_from_url",
+      "description": "Extract and parse content from a given URL. Returns the main text content and metadata. Useful for analyzing competitor websites, blog posts, or market reports.",
+      "category": "research",
+      "enabled": true,
+      "requires_api_key": false,
+      "rate_limit_per_minute": 20,
+      "timeout_seconds": 30,
+      "max_content_length": 10000,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string",
+            "description": "The URL to extract data from",
+            "format": "uri"
+          }
+        },
+        "required": ["url"]
+      },
+      "cost_per_call": 0.0,
+      "quality_checks": {
+        "require_valid_url": true,
+        "require_content": true
+      }
+    },
+    "store_context": {
+      "name": "store_context",
+      "description": "Store information in the context memory for later use by this or other agents. Use this to save important findings, decisions, or data that might be needed later.",
+      "category": "memory",
+      "enabled": true,
+      "requires_api_key": false,
+      "rate_limit_per_minute": 100,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "key": {
+            "type": "string",
+            "description": "Unique identifier for this context item"
+          },
+          "value": {
+            "type": "string",
+            "description": "The information to store"
+          },
+          "category": {
+            "type": "string",
+            "description": "Category (e.g., 'market_research', 'customer_data', 'strategy')",
+            "default": "general"
+          }
+        },
+        "required": ["key", "value"]
+      },
+      "cost_per_call": 0.0,
+      "storage_backend": "redis"
+    },
+    "retrieve_context": {
+      "name": "retrieve_context",
+      "description": "Retrieve previously stored context by key. Use this to access information saved by you or other agents.",
+      "category": "memory",
+      "enabled": true,
+      "requires_api_key": false,
+      "rate_limit_per_minute": 100,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "key": {
+            "type": "string",
+            "description": "The key of the context item to retrieve"
+          }
+        },
+        "required": ["key"]
+      },
+      "cost_per_call": 0.0,
+      "storage_backend": "redis"
+    },
+    "call_analyst_agent": {
+      "name": "call_analyst_agent",
+      "description": "Call the Analyst Agent for market research, competitive analysis, and opportunity identification. Use this when you need data-driven insights, market sizing, competitor intelligence, or to identify growth opportunities.",
+      "category": "agent",
+      "enabled": true,
+      "target_agent": "analyst",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "task": {
+            "type": "string",
+            "description": "The specific task or question for the Analyst"
+          },
+          "context": {
+            "type": "object",
+            "description": "Additional context (product info, target market, etc.)"
+          }
+        },
+        "required": ["task"]
+      }
+    },
+    "call_growth_hacker_agent": {
+      "name": "call_growth_hacker_agent",
+      "description": "Call the Growth Hacker Agent for customer acquisition strategies, growth experiments, and scaling tactics. Use this when you need growth strategies, experiment designs, viral mechanics, or rapid scaling plans.",
+      "category": "agent",
+      "enabled": true,
+      "target_agent": "growth_hacker",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "task": {
+            "type": "string",
+            "description": "The specific task or question for the Growth Hacker"
+          },
+          "context": {
+            "type": "object",
+            "description": "Additional context (current metrics, goals, resources, etc.)"
+          }
+        },
+        "required": ["task"]
+      }
+    },
+    "call_sales_machine_agent": {
+      "name": "call_sales_machine_agent",
+      "description": "Call the Sales Machine Agent for sales copy, conversion optimization, and offer design. Use this when you need landing pages, email sequences, objection handling, or persuasive sales assets.",
+      "category": "agent",
+      "enabled": true,
+      "target_agent": "sales_machine",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "task": {
+            "type": "string",
+            "description": "The specific task or question for the Sales Machine"
+          },
+          "context": {
+            "type": "object",
+            "description": "Additional context (product, audience, objections, etc.)"
+          }
+        },
+        "required": ["task"]
+      }
+    },
+    "call_system_builder_agent": {
+      "name": "call_system_builder_agent",
+      "description": "Call the System Builder Agent for process documentation, automation workflows, and scaling playbooks. Use this when you need SOPs, process maps, automation designs, or operational systems.",
+      "category": "agent",
+      "enabled": true,
+      "target_agent": "system_builder",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "task": {
+            "type": "string",
+            "description": "The specific task or question for the System Builder"
+          },
+          "context": {
+            "type": "object",
+            "description": "Additional context (current processes, pain points, etc.)"
+          }
+        },
+        "required": ["task"]
+      }
+    },
+    "call_brand_builder_agent": {
+      "name": "call_brand_builder_agent",
+      "description": "Call the Brand Builder Agent for content creation, thought leadership, and audience engagement. Use this when you need blog posts, social content, SEO strategy, or authority-building content.",
+      "category": "agent",
+      "enabled": true,
+      "target_agent": "brand_builder",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "task": {
+            "type": "string",
+            "description": "The specific task or question for the Brand Builder"
+          },
+          "context": {
+            "type": "object",
+            "description": "Additional context (brand voice, audience, topics, etc.)"
+          }
+        },
+        "required": ["task"]
+      }
+    },
+    "request_human_approval": {
+      "name": "request_human_approval",
+      "description": "Request human approval for high-stakes decisions like financial commitments >$1,000, major strategy pivots, or legal matters. Returns approval status.",
+      "category": "governance",
+      "enabled": true,
+      "requires_approval": false,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "decision": {
+            "type": "string",
+            "description": "The decision that needs approval"
+          },
+          "rationale": {
+            "type": "string",
+            "description": "Why this decision is recommended"
+          },
+          "risk_level": {
+            "type": "string",
+            "enum": ["low", "medium", "high"],
+            "description": "Risk level of this decision",
+            "default": "medium"
+          },
+          "estimated_cost": {
+            "type": "number",
+            "description": "Estimated cost in USD (if applicable)"
+          }
+        },
+        "required": ["decision", "rationale"]
+      },
+      "auto_approve_in_development": true,
+      "notification_channels": ["email", "slack"]
+    }
+  },
+  "tool_categories": {
+    "research": {
+      "description": "Tools for gathering information from external sources",
+      "examples": ["web_search", "extract_data_from_url"]
+    },
+    "memory": {
+      "description": "Tools for storing and retrieving context across agents",
+      "examples": ["store_context", "retrieve_context"]
+    },
+    "agent": {
+      "description": "Tools for calling specialist agents",
+      "examples": ["call_analyst_agent", "call_growth_hacker_agent"]
+    },
+    "governance": {
+      "description": "Tools for approval workflows and compliance",
+      "examples": ["request_human_approval"]
+    }
+  },
+  "rate_limiting": {
+    "enabled": true,
+    "default_per_minute": 60,
+    "default_per_hour": 500,
+    "default_per_day": 5000
+  },
+  "cost_tracking": {
+    "enabled": true,
+    "daily_budget_usd": 50.0,
+    "alert_at_percentage": 80,
+    "stop_at_percentage": 95
+  }
+}
