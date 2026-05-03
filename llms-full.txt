@@ -41,38 +41,28 @@ Senior software engineers coached to land offers, get promoted, and raise salari
 
 ## Featured public work
 
-Three public projects worth a read. Each ships a real artefact — code, research, or operational tooling — not a slide deck.
+The flagship public project — an evidence-graded research portfolio built by a multi-agent pipeline. Two further research portfolios are pending sanitisation.
 
 [
  Research
 
 ### Padel coaching tech — independent research
 
-Multi-agent research pipeline producing an evidence-graded eight-page strategic brief on padel coaching technology. Every claim cites a verifiable source URL.
+Multi-agent research pipeline producing an evidence-graded eight-page strategic brief on padel coaching technology. Every numeric claim cites a verifiable source URL. Built under Claude Code orchestration with a 14-check content + SEO quality gate.
 
 HTMLApache 2.0Live ↗
 
 ](https://avaluev.github.io/padel-market-analysis/)
  [
- Open source
+ More
 
-### agent-factory
+### All projects →
 
-A Python toolkit for spinning up bounded sub-agents that collaborate on research and synthesis tasks under Claude Code orchestration.
+The full projects index — flagship work, what is in private repos pending sanitisation, and what is shipping next.
 
-PythonGitHub ↗
+5 entriesUpdated weekly
 
-](https://github.com/avaluev/agent-factory)
- [
- Automation
-
-### linkedin_telegram_claude
-
-Pipeline that converts LinkedIn long-form posts into structured Telegram notes via the Claude API — daily content reuse with zero manual reformat.
-
-PythonClaude APIGitHub ↗
-
-](https://github.com/avaluev/linkedin_telegram_claude)
+](projects.html)
 
 ## Career coaching, briefly
 
@@ -258,7 +248,7 @@ Projects
 
 # Public work, not slide decks.
 
-Five public projects worth reading. Each ships a real artefact — research, code, or operational tooling — with the source visible on GitHub. The padel research portfolio is the flagship reference; the others are smaller experiments built mostly under Claude Code orchestration to test ideas quickly.
+One flagship public project worth reading in depth — the padel research portfolio. Built as an evidence-graded, AI-search-optimised research artefact with a 14-check unified content + SEO quality gate. Two further research portfolios are in private repos pending sanitisation; their public versions will appear on this page when IP review clears.
 
 ## Flagship
 
@@ -272,34 +262,6 @@ HTMLPythonClaude CodeOpenRouterApache 2.0
 
 [Live site →](https://avaluev.github.io/padel-market-analysis/)
  [Source →](https://github.com/avaluev/padel-market-analysis)
-
-## Tooling & experiments
-
-Smaller open-source projects — each one a self-contained answer to a specific recurring problem.
-
-A Python toolkit for spinning up bounded sub-agents that collaborate on research and synthesis tasks under Claude Code orchestration. Bounded means each sub-agent has a narrow brief, a hard token budget, and a structured output schema — so the orchestrator can compose them deterministically.
-
-Python
-
-[Source →](https://github.com/avaluev/agent-factory)
-
-Pipeline that converts a LinkedIn long-form post into a Telegram-shaped note via the Claude API — preserving the argument while reformatting for the channel's voice and length norms. Used daily to publish from one source to two surfaces with zero manual reformatting.
-
-PythonClaude API
-
-[Source →](https://github.com/avaluev/linkedin_telegram_claude)
-
-A Telegram bot that opens GitHub Issues from chat messages — tiny ops glue for solo workflows. Captures the message body, attaches a label, files the Issue against a configured repo, replies with the URL.
-
-ShellTelegram Bot API
-
-[Source →](https://github.com/avaluev/telegram_issue_bot)
-
-Minimal landing-page template for testing product hypotheses fast — tracking, opt-in, no framework lock-in. Designed to be cloned, branded in under an hour, and shipped to a custom domain by end of day.
-
-PythonHTML
-
-[Source →](https://github.com/avaluev/landing-page-mvp)
 
 ## What is not public yet
 
