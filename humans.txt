@@ -1,0 +1,14 @@
+/* TEAM */
+Author: Alex Valuev
+Role:   Senior AI Product Manager & Career Coach
+LinkedIn: https://www.linkedin.com/in/valuev/
+GitHub:   https://github.com/avaluev
+Telegram: https://t.me/asnkt
+Coaching: https://t.me/itcareertech
+YouTube:  https://youtube.com/@itcareertech
+
+/* SITE */
+Last update:   2026-05-03
+Language:      English
+Doctype:       HTML5
+Standards:     HTML5, WCAG AA, AI-search optimised

@@ -1,0 +1,505 @@
+# Alex Valuev — Senior AI Product Manager & Career Coach — Full Reference
+
+> Alex Valuev — Senior AI Product Manager with 11+ years shipping AI and data products across healthcare, FinTech, and MedTech. Career coach to 100+ senior software engineers. Portfolio, public research, and contact.
+
+_Author: Alex Valuev. License: MIT._  _Repository: <https://github.com/avaluev/avaluev.github.io>._
+
+_This file concatenates every published page in markdown for retrieval contexts. Page boundaries are marked by `# Page: …` headings. The original page lives at the canonical URL noted directly under each heading._
+
+
+---
+
+
+## Page: Alex Valuev — Senior AI Product Manager & Career Coach
+
+_Canonical: <https://avaluev.github.io/>_
+
+> Landing page. Senior Product Manager (11+ years, healthcare AI, FinTech, MedTech) and career coach to 100+ senior engineers. Featured public research, projects, and contact.
+
+
+11+ years
+
+Senior product roles across healthcare AI, FinTech, MedTech, AdTech, and e-commerce.
+
+100K+ patients
+
+Reach of the AI clinical recommendation engine scaled at SXOPE — across 1K+ primary-care physicians.
+
+100+ engineers
+
+Senior software engineers coached to land offers, get promoted, and raise salaries since 2022.
+
+## Now
+
+### What is on the desk this quarter
+
+**Day job:** Scaling AI clinical recommendations and chronic-disease prediction at SXOPE — a HIPAA, ISO 27001, and SOC 2-compliant value-based-care platform serving 100K+ patients across 1K+ US primary-care physicians.
+
+**Public research:** Maintaining the [padel-market-analysis](https://avaluev.github.io/padel-market-analysis/) evidence-graded research portfolio — eight pages, every numeric claim cited.
+
+**Coaching:** One-on-one resume rewrites and behavioural interview prep, plus written and video lessons on the [VALUEV CAREER Telegram channel](https://t.me/itcareertech) and [YouTube](https://youtube.com/@itcareertech).
+
+## Featured public work
+
+Three public projects worth a read. Each ships a real artefact — code, research, or operational tooling — not a slide deck.
+
+[
+ Research
+
+### Padel coaching tech — independent research
+
+Multi-agent research pipeline producing an evidence-graded eight-page strategic brief on padel coaching technology. Every claim cites a verifiable source URL.
+
+HTMLApache 2.0Live ↗
+
+](https://avaluev.github.io/padel-market-analysis/)
+ [
+ Open source
+
+### agent-factory
+
+A Python toolkit for spinning up bounded sub-agents that collaborate on research and synthesis tasks under Claude Code orchestration.
+
+PythonGitHub ↗
+
+](https://github.com/avaluev/agent-factory)
+ [
+ Automation
+
+### linkedin_telegram_claude
+
+Pipeline that converts LinkedIn long-form posts into structured Telegram notes via the Claude API — daily content reuse with zero manual reformat.
+
+PythonClaude APIGitHub ↗
+
+](https://github.com/avaluev/linkedin_telegram_claude)
+
+## Career coaching, briefly
+
+VALUEV CAREER — a coaching practice for senior software engineers who want to land their next role faster. 100+ engineers helped since 2022.
+
+[
+ Service
+
+### One-on-one engagements
+
+Resume rewriting, behavioural interview preparation, salary negotiation. Designed for senior and staff-level engineers targeting AI, healthcare, FinTech, or platform roles.
+
+Read the brief →
+
+](coaching.html)
+ [
+ Free
+
+### Telegram channel
+
+Free written notes on resume framing, interview answers, and offer negotiation — published in Russian and English.
+
+t.me/itcareertech ↗
+
+](https://t.me/itcareertech)
+
+## Talk to me
+
+Best ways to reach Alex. Direct, no gatekeepers.
+
+[
+
+ Email
+ ](mailto:valuev.alexandr@gmail.com)
+ [
+
+ LinkedIn
+ ](https://www.linkedin.com/in/valuev/)
+ [
+
+ GitHub
+ ](https://github.com/avaluev)
+ [
+
+ Telegram
+ ](https://t.me/asnkt)
+ [
+
+ YouTube
+ ](https://youtube.com/@itcareertech)
+
+
+---
+
+
+## Page: About — Alex Valuev
+
+_Canonical: <https://avaluev.github.io/about.html>_
+
+> Long-form professional bio: career history from 2014 to present, leadership philosophy, technical and domain expertise, and the principles behind low-ego coaching leadership.
+
+
+About
+
+# Alex Valuev — Senior AI Product Manager.
+
+Eleven-plus years shipping AI and data systems across healthcare AI, FinTech, MedTech, AdTech, and e-commerce. Currently scaling AI clinical recommendations to 100K+ patients at SXOPE. Founder of VALUEV CAREER, where 100+ senior software engineers have rewritten resumes and landed offers since 2022. Bridges strategy and execution by shipping prototypes faster than most teams write specs.
+
+## Career history
+
+### SXOPE — Senior Product Manager
+
+Mar 2024 – Present·Remote·Healthcare AI
+
+HIPAA, ISO 27001, and SOC 2-compliant AI healthcare ecosystem transforming US value-based care for over 100,000 patients and more than 1,000 primary-care physicians. Delivers real-time clinical intelligence, risk adjustment, and HEDIS gap closure with zero-setup integration into eClinicalWorks, Athenahealth, and Practice Fusion.
+
+- **Scaled AI clinical recommendations from pilot to 100K+ patients** after a discovery study with 50 physicians demonstrated 60% adoption and 35% time savings. Secured C-suite investment approval with custom SQL dashboards and interactive ROI models analysing monthly AI cost.
+- **Cut ML model deployment cycles by 75% in 7 months** by establishing a unified product roadmap that bridged clinical and ML workflows, plus self-service BI dashboards that let an 11-person clinical and data-science team build, evaluate, and deploy chronic-disease prediction models collaboratively.
+- **Launched an AI-driven prioritisation engine in 3 months** replacing random patient scheduling with a risk-stratified model. Deployed across 100+ clinics, identifying the most vulnerable patients via emergency-risk and multi-factor engagement scoring.
+- **Saved 400+ engineering hours annually** by delivering an ML validation pipeline that stress-tested the AI Clinical Notes platform with synthetic patient–physician encounters and intentionally flawed scenarios — hardening the system without exposing real patient data.
+
+### Closed-End Investment Fund — Senior / Product Manager
+
+Aug 2018 – Mar 2024·Remote·AdTech, FinTech, E-commerce
+
+Private $500M+ closed-end fund with a controlling interest in the top 50 information, news, and entertainment websites in the Russian internet by traffic.
+
+- **Reduced annual content costs 40x in 9 months** by designing a content-generation framework and building an AI content platform on Claude, GPT-4, and Stable Diffusion that autonomously published 2,000 SEO-optimised articles per day with a 90% publish rate. Coordinated 4 engineers, 15 editorial staff, and 2 SEO specialists.
+- **Designed and launched an NLP / ML US-stock analysis and algorithmic-trading platform in 10 months**, reducing manual research effort by 50%. Aggregated insider trades, news, filings, and research across 8,000+ stocks; built proprietary models that produced forecasts, signals, and continuous backtesting for the hedge-fund client.
+- **Led a team of 20 to launch a fast-fashion e-commerce business**, reaching break-even 15% faster than baseline and lifting production capacity by more than 30% via an integrated ERP that automated a 200-person factory end-to-end.
+- **Lifted company valuation by 10% during a 12-month M&A** by leading 8 people on web-performance and ad-revenue work: 30% page-load reduction (CDN, Preact, SSR), 15% time-on-page lift via comments, instant messaging, ML-based spam protection, and a personalised content recommendation system.
+
+### CSSSR — Senior Project Manager (Contract)
+
+Oct 2017 – Aug 2018·Remote·Outsourcing
+
+Russia's largest remote front-end development house, serving FinTech, e-commerce, IT, and media clients.
+
+- **Eliminated 300+ hours of manual reporting per month** by designing a no-code, company-wide accounting system that tracked spend, revenue, and margin across 100+ projects, 7 teams, and 200 employees in real time. Profits improved by $150K+; the per-project visibility powered a new manager bonus scheme.
+- **Generated $120K+ in new revenue** by establishing public-sector sales and winning 3 high-value IT tenders plus 4 private-sector clients across 20 proposals.
+
+### Samara State Medical University — Senior Project Manager (Contract)
+
+Jan 2017 – Oct 2017·Russia·MedTech
+
+AI-powered surgical navigation system that creates real-time 3D models of patients so surgeons can perform complex procedures with millimetre precision.
+
+- **Delivered a $4M clinical-trial-qualified hardware-software platform in 9 months** for ML and computer-vision-assisted image-guided surgery. Led 50 professionals across embedded and desktop software, QA, data science, electronics, assemblers, and mechanics.
+- **Cut CT and MRI imaging-software implementation time by 80% and cost by 60%** while validating product-market fit in 4 months at 10 vascular and neurosurgery clinics, by introducing a pay-as-you-go SaaS model with on-demand GPU workstations.
+- **Achieved 4x system performance improvement in 6 months** through data-driven optimisation: usage tracking, Sentry error monitoring, ELK analysis on live traffic, bi-weekly demo sessions, and a metrics dashboard.
+
+### Magenta Technology — Product Delivery Manager
+
+Dec 2015 – Jan 2017·Russia·Multi-agent AI
+
+Multi-agent dynamic route-scheduling and optimisation company serving 30+ B2B and B2C clients in the UK, USA, Italy, Spain, UAE, and Russia.
+
+- **Reduced time-to-market 50% for the global dynamic route-optimisation platform** in 11 months by introducing a Customer Impact Mapping prioritisation approach and slashing Jira creation/management time 80% via automation and templates.
+- **Lifted customer satisfaction 20% across 10 key B2B accounts** by cutting server-upgrade downtime 90% with geographically distributed MariaDB shards and resilient failover under Ansible / Chef-driven Infrastructure-as-Code.
+
+### Knowledge Genesis Group — Project Manager
+
+Jun 2014 – Dec 2015·Russia·AI / Aerospace
+
+Develops AI and multi-agent systems used by global customers including Airbus, Coca-Cola, and Lego. Reported 10–15x faster planning, 40% supply-chain productivity gains, and 2–3x faster disruption response.
+
+- **Delivered a mission-critical government aerospace portfolio-management platform in 14 months**, leading a distributed team of 30 to give C-level executives real-time access to aggregated and detailed financial, legal, and technical project data.
+- **Designed and shipped a real-time multi-agent rescheduling system in 4 months** with a team of 6 — automating up to 50 simultaneous tactical mission plans in under 60 seconds in the face of rapidly changing situations.
+
+## Leadership philosophy
+
+Five operating principles that hold up across team sizes, industries, and political environments:
+
+1. **Protect team culture over perfect outcomes.** Imperfect solutions that preserve people often beat optimal ones that grind them down. Be transparent about constraints rather than promising what you can't deliver.
+2. **Influence over authority.** In matrix organisations, the formal org chart rarely matches the decision graph. Build alliances, leave paper trails, and meet teams where they are — offer help, not just asks.
+3. **Empower domain experts.** Self-service validation tools beat gatekeeping. Give clinicians, ops, or finance a deployment lever with appropriate guardrails — democratising control accelerates innovation faster than centralising it.
+4. **Strategic knowledge management.** Never confront a toxic high-performer until the team is no longer dependent on them. Document the irreplaceable knowledge first, disguised as team expansion. Succession planning is insurance.
+5. **Pragmatic problem-solving.** An 80% solution that ships beats a 100% solution that doesn't. Honest transparency builds more trust than false promises. Sometimes you must pause feature delivery to fix foundations.
+
+## Technical & domain expertise
+
+#### Product management
+
+0-to-1 product development, product strategy and roadmap, stakeholder management, cross-functional team leadership, user research and prototyping, A/B testing, go-to-market, lifecycle management, OKR / KPI setting, ROI modelling.
+
+#### AI / ML & agentic systems
+
+Multi-modal generative AI (Claude, GPT-4, Gemini, Qwen, Stable Diffusion), agent orchestration (LangChain, multi-agent), ML workflows, computer vision, model evaluation, prompt engineering, AI product design.
+
+#### Data & analytics
+
+SQL, BigQuery, business intelligence, data mining, product analytics, ELK Stack, Google Colab, OpenReplay, Sentry, dashboard design.
+
+#### Technical proficiency
+
+Python, MongoDB, API design, SaaS architecture, system design, AI-assisted development (VS Code, Claude Code, Gemini CLI), GCP, SSO, RBAC.
+
+#### Design & collaboration
+
+Figma, Miro, Confluence, Jira, Trello.
+
+#### Domain expertise
+
+Healthcare (HIPAA, HL7, FHIR, value-based care), FinTech (trading systems, risk management), MedTech (medical imaging, surgical navigation, computer vision), regulatory compliance.
+
+## Languages
+
+English — professional
+ Russian — native
+
+
+---
+
+
+## Page: Projects — public work by Alex Valuev
+
+_Canonical: <https://avaluev.github.io/projects.html>_
+
+> Public research and engineering projects, including the padel-market-analysis evidence-graded research portfolio, agent-factory multi-agent orchestration, and other open-source experiments.
+
+
+Projects
+
+# Public work, not slide decks.
+
+Five public projects worth reading. Each ships a real artefact — research, code, or operational tooling — with the source visible on GitHub. The padel research portfolio is the flagship reference; the others are smaller experiments built mostly under Claude Code orchestration to test ideas quickly.
+
+## Flagship
+
+A multi-agent research pipeline that produces an evidence-graded brief from a single prompt. Built as the reference implementation for everything else here.
+
+An eight-page strategic brief on padel coaching technology — competitor landscape, subscription economics, MVP design, and a 90-day operating plan. Every numeric claim has a verifiable source URL. The pipeline that built it runs under Claude Code and OpenRouter, fans out across multiple frontier models, and gates output through a 14-check unified content + SEO quality script before merge.
+
+**Why this matters.** The repo is the proof point for "ship functional research faster than most teams write specs." It demonstrates a working multi-agent orchestration pattern, an evidence-traceability discipline, and a mobile-first, AI-search-optimised publishing standard — all three of which carry directly into product work.
+
+HTMLPythonClaude CodeOpenRouterApache 2.0
+
+[Live site →](https://avaluev.github.io/padel-market-analysis/)
+ [Source →](https://github.com/avaluev/padel-market-analysis)
+
+## Tooling & experiments
+
+Smaller open-source projects — each one a self-contained answer to a specific recurring problem.
+
+A Python toolkit for spinning up bounded sub-agents that collaborate on research and synthesis tasks under Claude Code orchestration. Bounded means each sub-agent has a narrow brief, a hard token budget, and a structured output schema — so the orchestrator can compose them deterministically.
+
+Python
+
+[Source →](https://github.com/avaluev/agent-factory)
+
+Pipeline that converts a LinkedIn long-form post into a Telegram-shaped note via the Claude API — preserving the argument while reformatting for the channel's voice and length norms. Used daily to publish from one source to two surfaces with zero manual reformatting.
+
+PythonClaude API
+
+[Source →](https://github.com/avaluev/linkedin_telegram_claude)
+
+A Telegram bot that opens GitHub Issues from chat messages — tiny ops glue for solo workflows. Captures the message body, attaches a label, files the Issue against a configured repo, replies with the URL.
+
+ShellTelegram Bot API
+
+[Source →](https://github.com/avaluev/telegram_issue_bot)
+
+Minimal landing-page template for testing product hypotheses fast — tracking, opt-in, no framework lock-in. Designed to be cloned, branded in under an hour, and shipped to a custom domain by end of day.
+
+PythonHTML
+
+[Source →](https://github.com/avaluev/landing-page-mvp)
+
+## What is not public yet
+
+A handful of larger initiatives are still in private repos. Sanitised public mirrors will appear as the IP review clears each one.
+
+A research portfolio on commercial-vehicle ELD compliance and routing. Will follow the same eight-page evidence-graded pattern as the padel research, with all customer-identifying material stripped before the public version ships.
+
+Pending sanitisation
+
+The internal toolchain that powers the VALUEV CAREER coaching practice — resume parsing, role matching, and interview-question generation. The runtime stays private; an excerpted methodology brief may follow.
+
+TypeScriptPrivate
+
+
+---
+
+
+## Page: Career Coaching for Senior Software Engineers — VALUEV CAREER
+
+_Canonical: <https://avaluev.github.io/coaching.html>_
+
+> Career coaching for senior software engineers: resume rewriting, behavioural interview preparation, salary negotiation. 100+ engineers coached since 2022. Run through Telegram and YouTube.
+
+
+VALUEV CAREER
+
+# Career coaching for senior software engineers.
+
+Senior engineers underestimate their own work. They write resumes that read like ticket descriptions, then wonder why recruiters skim past. VALUEV CAREER is a one-on-one practice that rewrites the resume, drills the behavioural interview, and prepares the negotiation script. 100+ engineers have moved through the practice since 2022.
+
+100+ engineers
+
+Senior software engineers coached since 2022.
+
+3 services
+
+Resume rewriting, interview preparation, offer negotiation.
+
+2 languages
+
+English and Russian. Channels and one-on-one sessions in both.
+
+## What I help with
+
+Three discrete services. Pick one or combine them — most engagements take all three.
+
+### Resume rewrite
+
+End-to-end rewrite with role targeting and impact-statement framing — turning ticket descriptions into outcome claims a recruiter can quote in a one-line summary.
+
+- Role and target-company shortlist
+- Impact statements with measurable outcomes
+- ATS-friendly formatting and keyword coverage
+- One revision round after first recruiter response
+
+### Interview preparation
+
+Behavioural and system-design preparation with mock interviews. Structured feedback against the rubrics MAANG-tier panels actually use, not the generic STAR template.
+
+- Behavioural story bank covering 12 standard prompts
+- Mock interview with timed answers and feedback
+- System-design walkthrough for senior / staff loops
+- Recording review with tactical edits
+
+### Offer negotiation
+
+Walkthrough of competing offers, leverage analysis, and a written negotiation script — including the lines to actually say in the call when the recruiter pushes back.
+
+- Compensation breakdown by base / equity / bonus
+- Comp benchmarking against levels.fyi and direct anchors
+- Written script for the negotiation call
+- Post-call debrief and next-step planning
+
+## Who it's for
+
+- **Senior and staff-level software engineers** targeting AI, healthcare, FinTech, or platform roles.
+- **Engineers who built impressive things** but cannot articulate them in a way that survives a recruiter screen.
+- **Engineers preparing for level-up interviews** at MAANG-tier companies — IC5 → IC6, Senior → Staff.
+- **First-time interview returnees** who have not changed jobs in five-plus years and need to update their playbook.
+- **Engineers negotiating competing offers** who want a written script before the recruiter call.
+
+## Free resources
+
+Public-facing channels with no paywall. Read these first — they cover most of what gets repeated in paid sessions.
+
+[
+ Telegram
+
+### VALUEV CAREER — written notes
+
+Short written posts on resume framing, interview answers, and offer negotiation. Published in Russian and English.
+
+t.me/itcareertech ↗
+
+](https://t.me/itcareertech)
+ [
+ YouTube
+
+### @itcareertech — video lessons
+
+Longer-form video walkthroughs of resume rewrites, interview drills, and negotiation conversations.
+
+youtube.com/@itcareertech ↗
+
+](https://youtube.com/@itcareertech)
+
+### Want to work together on your next role?
+
+Send an email or DM with the role you are targeting and the version of your resume you are using today. First reply within 48 hours, no template language.
+
+[Email Alex](mailto:valuev.alexandr@gmail.com?subject=Career%20coaching%20enquiry)
+ [DM on Telegram](https://t.me/asnkt)
+ [All contact methods](contact.html)
+
+
+---
+
+
+## Page: Contact Alex Valuev
+
+_Canonical: <https://avaluev.github.io/contact.html>_
+
+> Email, LinkedIn, GitHub, Telegram, and YouTube channels. Available for senior product roles in AI healthcare and FinTech, and for one-on-one career coaching engagements.
+
+
+Contact
+
+# Direct, no gatekeepers.
+
+Five direct contact methods. Email is best for substantive enquiries; Telegram for quick conversations; LinkedIn for recruiters. First reply within 48 hours on workdays. No template responses; expect a real reply addressed to the specific question.
+
+## Reach Alex directly
+
+[
+
+Email
+ valuev.alexandr@gmail.com
+
+→
+ ](mailto:valuev.alexandr@gmail.com)
+
+ [
+
+LinkedIn
+ linkedin.com/in/valuev
+
+→
+ ](https://www.linkedin.com/in/valuev/)
+
+ [
+
+GitHub
+ github.com/avaluev
+
+→
+ ](https://github.com/avaluev)
+
+ [
+
+Telegram — direct
+ t.me/asnkt
+
+→
+ ](https://t.me/asnkt)
+
+ [
+
+Telegram — VALUEV CAREER channel
+ t.me/itcareertech
+
+→
+ ](https://t.me/itcareertech)
+
+ [
+
+YouTube — VALUEV CAREER
+ youtube.com/@itcareertech
+
+→
+ ](https://youtube.com/@itcareertech)
+
+## What kinds of conversations
+
+Here is what fits and what doesn't, so the first email lands well.
+
+### Senior product roles
+
+**Yes:** Senior / Principal AI Product Manager roles in healthcare, FinTech, or platform-AI teams. Remote-first. Open to hybrid in select cities.
+
+### Career coaching engagements
+
+**Yes:** One-on-one engagements for senior and staff-level engineers. Resume rewrites, interview prep, offer negotiation. [See the coaching page →](coaching.html)
+
+### Advisory / board seats
+
+**Maybe:** Advisory work with health-tech and AI startups in the seed-to-Series-B range. Limited bandwidth; prefer engagements with measurable cadence.
+
+### Sales pitches and SaaS demos
+
+**No:** Cold pitches go straight to delete. Skip the sequencing.
+
+
+---

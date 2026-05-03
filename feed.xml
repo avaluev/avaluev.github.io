@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title><![CDATA[Alex Valuev — Senior AI Product Manager & Career Coach]]></title>
+    <link>https://avaluev.github.io/</link>
+    <atom:link href="https://avaluev.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <description><![CDATA[Alex Valuev — Senior AI Product Manager with 11+ years shipping AI and data products across healthcare, FinTech, and MedTech. Career coach to 100+ senior software engineers. Portfolio, public research, and contact.]]></description>
+    <language>en</language>
+    <copyright>MIT licensed</copyright>
+    <lastBuildDate>Sun, 03 May 2026 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title><![CDATA[About — Alex Valuev]]></title>
+      <link>https://avaluev.github.io/about.html</link>
+      <guid isPermaLink="true">https://avaluev.github.io/about.html</guid>
+      <description><![CDATA[Long-form professional bio: career history from 2014 to present, leadership philosophy, technical and domain expertise, and the principles behind low-ego coaching leadership.]]></description>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Projects — public work by Alex Valuev]]></title>
+      <link>https://avaluev.github.io/projects.html</link>
+      <guid isPermaLink="true">https://avaluev.github.io/projects.html</guid>
+      <description><![CDATA[Public research and engineering projects, including the padel-market-analysis evidence-graded research portfolio, agent-factory multi-agent orchestration, and other open-source experiments.]]></description>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Career Coaching for Senior Software Engineers — VALUEV CAREER]]></title>
+      <link>https://avaluev.github.io/coaching.html</link>
+      <guid isPermaLink="true">https://avaluev.github.io/coaching.html</guid>
+      <description><![CDATA[Career coaching for senior software engineers: resume rewriting, behavioural interview preparation, salary negotiation. 100+ engineers coached since 2022. Run through Telegram and YouTube.]]></description>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Contact Alex Valuev]]></title>
+      <link>https://avaluev.github.io/contact.html</link>
+      <guid isPermaLink="true">https://avaluev.github.io/contact.html</guid>
+      <description><![CDATA[Email, LinkedIn, GitHub, Telegram, and YouTube channels. Available for senior product roles in AI healthcare and FinTech, and for one-on-one career coaching engagements.]]></description>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

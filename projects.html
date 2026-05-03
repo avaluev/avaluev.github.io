@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0a0b10" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Public projects by Alex Valuev — research portfolios, agentic-AI tooling, automation, and templates. Each project ships a real artefact: code, research, or operational tooling.">
+<meta name="keywords" content="alex valuev projects, ai product manager portfolio, padel research, agent factory, claude code, github repos">
+<meta name="author" content="Alex Valuev">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Projects — Alex Valuev">
+<meta property="og:description" content="Public projects: padel-market-analysis research portfolio, agent-factory, linkedin_telegram_claude, telegram_issue_bot, landing-page-mvp, and more.">
+<meta property="og:url" content="https://avaluev.github.io/projects.html">
+<meta property="og:image" content="https://avaluev.github.io/og-default.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:site_name" content="Alex Valuev">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Projects — Alex Valuev">
+<meta name="twitter:description" content="Public projects: padel research portfolio, agentic-AI tooling, automation, templates.">
+<meta name="twitter:image" content="https://avaluev.github.io/og-default.png">
+<title>Projects — Alex Valuev</title>
+<link rel="canonical" href="https://avaluev.github.io/projects.html">
+<link rel="alternate" type="application/rss+xml" title="Alex Valuev — Updates" href="feed.xml">
+<link rel="alternate" type="text/markdown" title="LLM index" href="llms.txt">
+<link rel="sitemap" type="application/xml" href="sitemap.xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="me" href="https://www.linkedin.com/in/valuev/">
+<link rel="me" href="https://github.com/avaluev">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "CollectionPage",
+   "@id": "https://avaluev.github.io/projects.html#projects",
+   "url": "https://avaluev.github.io/projects.html",
+   "name": "Projects — Alex Valuev",
+   "isPartOf": { "@id": "https://avaluev.github.io/#website" },
+   "about": { "@id": "https://avaluev.github.io/#person" },
+   "datePublished": "2026-05-03",
+   "dateModified": "2026-05-03",
+   "inLanguage": "en"
+  },
+  {
+   "@type": "ItemList",
+   "itemListOrder": "Unordered",
+   "numberOfItems": 5,
+   "itemListElement": [
+    {
+     "@type": "CreativeWork",
+     "position": 1,
+     "name": "padel-market-analysis",
+     "url": "https://avaluev.github.io/padel-market-analysis/",
+     "description": "Independent, evidence-graded research on padel coaching technology — competitor landscape, subscription economics, MVP design, and operating plan."
+    },
+    {
+     "@type": "SoftwareSourceCode",
+     "position": 2,
+     "name": "agent-factory",
+     "url": "https://github.com/avaluev/agent-factory",
+     "programmingLanguage": "Python",
+     "description": "A Python toolkit for spinning up bounded sub-agents that collaborate on research and synthesis tasks under Claude Code orchestration."
+    },
+    {
+     "@type": "SoftwareSourceCode",
+     "position": 3,
+     "name": "linkedin_telegram_claude",
+     "url": "https://github.com/avaluev/linkedin_telegram_claude",
+     "programmingLanguage": "Python",
+     "description": "Pipeline that converts LinkedIn long-form posts into structured Telegram notes via the Claude API."
+    },
+    {
+     "@type": "SoftwareSourceCode",
+     "position": 4,
+     "name": "telegram_issue_bot",
+     "url": "https://github.com/avaluev/telegram_issue_bot",
+     "programmingLanguage": "Shell",
+     "description": "Telegram bot that opens GitHub Issues from chat messages — tiny ops glue for solo workflows."
+    },
+    {
+     "@type": "SoftwareSourceCode",
+     "position": 5,
+     "name": "landing-page-mvp",
+     "url": "https://github.com/avaluev/landing-page-mvp",
+     "programmingLanguage": "Python",
+     "description": "Minimal landing-page template for testing product hypotheses fast — tracking, opt-in, no framework lock-in."
+    }
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://avaluev.github.io/" },
+    { "@type": "ListItem", "position": 2, "name": "Projects", "item": "https://avaluev.github.io/projects.html" }
+   ]
+  }
+ ]
+}
+</script>
+<link rel="stylesheet" href="topnav.css">
+<style>
+ :root{
+  --bg:#fff; --bg-soft:#fafafa; --bg-card:#fff; --bg-elev:#f4f6fb;
+  --ink:#0a0b10; --ink-soft:#3f3f46; --ink-mute:#71717a;
+  --line:#e6e8ef;
+  --accent:#2563eb; --accent-soft:#e0eaff; --accent-ink:#fff;
+  --shadow:0 1px 2px rgba(10,11,16,.04);
+  --shadow-elev:0 8px 28px rgba(10,11,16,.08);
+  --radius:12px;
+ }
+ @media (prefers-color-scheme: dark){
+  :root{
+   --bg:#0a0b10; --bg-soft:#10121a; --bg-card:#13151e;
+   --ink:#f5f5f8; --ink-soft:#d4d4dc; --ink-mute:#a1a1aa;
+   --line:#262834;
+   --accent:#5b8dff; --accent-soft:#102043; --accent-ink:#0a0b10;
+   --shadow-elev:0 8px 28px rgba(0,0,0,.5);
+  }
+ }
+ *,*::before,*::after{box-sizing:border-box}
+ html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:88px}
+ @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+ body{margin:0;background:var(--bg);color:var(--ink);
+  font:400 17px/1.65 -apple-system,BlinkMacSystemFont,"Inter","Segoe UI Variable","Segoe UI",system-ui,Roboto,Arial,sans-serif;
+  -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;
+  overflow-x:clip;
+ }
+ a{color:var(--accent);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px;text-decoration-color:color-mix(in srgb,var(--accent) 35%,transparent)}
+ a:hover{text-decoration-color:var(--accent)}
+ :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+
+ .wrap{max-width:1080px;margin:0 auto;padding:clamp(28px,5vw,64px) clamp(20px,4vw,32px) 80px}
+ .eyebrow{display:inline-flex;align-items:center;gap:8px;color:var(--ink-mute);font-size:.825rem;font-weight:500;letter-spacing:.04em;text-transform:uppercase;margin-bottom:14px}
+ .eyebrow .dot{width:6px;height:6px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px color-mix(in srgb,var(--accent) 18%,transparent)}
+ h1{font-size:clamp(1.875rem,1.5rem + 2vw,2.625rem);line-height:1.1;letter-spacing:-0.025em;margin:0 0 .5em;text-wrap:balance;font-weight:700}
+ p.summary{font-size:1.0625rem;line-height:1.6;color:var(--ink);background:var(--bg-soft);border-left:3px solid var(--accent);padding:18px 22px;border-radius:0 var(--radius) var(--radius) 0;margin:0 0 36px;max-width:74ch}
+
+ h2{font-size:clamp(1.25rem,1.05rem + .65vw,1.5rem);margin:48px 0 8px;letter-spacing:-.018em;font-weight:680}
+ h2::before{content:"";display:block;width:32px;height:3px;background:var(--accent);margin-bottom:12px;border-radius:2px}
+ h2 + p.section-lede{color:var(--ink-soft);max-width:64ch;margin:0 0 22px;font-size:1rem;line-height:1.55}
+
+ .grid{display:grid;gap:14px;grid-template-columns:1fr;margin:14px 0}
+ @media (min-width:640px){.grid.two{grid-template-columns:repeat(2,1fr)}}
+
+ .project{padding:24px;border:1px solid var(--line);border-radius:var(--radius);background:var(--bg-card);box-shadow:var(--shadow);display:flex;flex-direction:column;gap:14px}
+ .project header{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px;justify-content:space-between}
+ .project h3{margin:0;font-size:1.15rem;letter-spacing:-.012em;font-weight:680;color:var(--ink)}
+ .project h3 a{color:var(--ink);text-decoration:none}
+ .project h3 a:hover{color:var(--accent);text-decoration:underline}
+ .project .tag{display:inline-block;font-size:.75rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--accent);background:var(--accent-soft);padding:3px 8px;border-radius:6px;width:fit-content}
+ .project p{margin:0;color:var(--ink-soft);font-size:.97rem;line-height:1.55}
+ .project p strong{color:var(--ink);font-weight:600}
+ .project .links{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.85rem;color:var(--ink-mute);padding-top:6px;border-top:1px dashed var(--line)}
+ .project .links a{color:var(--accent);text-decoration:none;font-weight:500}
+ .project .links a:hover{text-decoration:underline}
+ .project .meta{display:flex;flex-wrap:wrap;gap:6px;font-size:.78rem}
+ .project .pill{padding:2px 8px;border:1px solid var(--line);border-radius:999px;color:var(--ink-soft);background:var(--bg-soft)}
+
+ .featured{border:2px solid var(--accent);background:linear-gradient(180deg,color-mix(in srgb,var(--accent-soft) 80%,transparent),var(--bg-card))}
+ @media(prefers-color-scheme:dark){.featured{background:linear-gradient(180deg,color-mix(in srgb,var(--accent-soft) 70%,transparent),var(--bg-card))}}
+
+ footer.page-foot{margin-top:72px;padding-top:24px;border-top:1px solid var(--line);color:var(--ink-mute);font-size:.825rem;display:flex;flex-direction:column;gap:6px}
+ @media(min-width:640px){footer.page-foot{flex-direction:row;justify-content:space-between}}
+ footer.page-foot a{color:var(--ink-mute)}
+ footer.page-foot a:hover{color:var(--accent)}
+
+ @media print{.topnav,.skip-link{display:none}a{color:#000}}
+</style>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="topnav" role="navigation" aria-label="Site navigation">
+  <a class="brand" href="index.html"><span class="dot" aria-hidden="true"></span>Alex Valuev</a>
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation menu">
+    <span class="nav-toggle-bar" aria-hidden="true"></span>
+    <span class="nav-toggle-bar" aria-hidden="true"></span>
+    <span class="nav-toggle-bar" aria-hidden="true"></span>
+  </button>
+  <nav id="primary-nav" class="nav-links" aria-label="Primary">
+    <a class="np" href="index.html">Home</a>
+    <a class="np" href="about.html">About</a>
+    <a class="np" href="projects.html" aria-current="page">Projects</a>
+    <a class="np" href="coaching.html">Coaching</a>
+    <a class="np" href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main id="main" class="wrap" role="main">
+
+<div class="eyebrow"><span class="dot" aria-hidden="true"></span>Projects</div>
+<h1>Public work, not slide decks.</h1>
+<p class="summary">Five public projects worth reading. Each ships a real artefact — research, code, or operational tooling — with the source visible on GitHub. The padel research portfolio is the flagship reference; the others are smaller experiments built mostly under Claude Code orchestration to test ideas quickly.</p>
+
+<h2>Flagship</h2>
+<p class="section-lede">A multi-agent research pipeline that produces an evidence-graded brief from a single prompt. Built as the reference implementation for everything else here.</p>
+<div class="grid">
+ <article class="project featured">
+  <header>
+   <h3><a href="https://avaluev.github.io/padel-market-analysis/">padel-market-analysis</a></h3>
+   <span class="tag">Research portfolio</span>
+  </header>
+  <p>An eight-page strategic brief on padel coaching technology — competitor landscape, subscription economics, MVP design, and a 90-day operating plan. Every numeric claim has a verifiable source URL. The pipeline that built it runs under Claude Code and OpenRouter, fans out across multiple frontier models, and gates output through a 14-check unified content + SEO quality script before merge.</p>
+  <p><strong>Why this matters.</strong> The repo is the proof point for "ship functional research faster than most teams write specs." It demonstrates a working multi-agent orchestration pattern, an evidence-traceability discipline, and a mobile-first, AI-search-optimised publishing standard — all three of which carry directly into product work.</p>
+  <div class="meta">
+   <span class="pill">HTML</span><span class="pill">Python</span><span class="pill">Claude Code</span><span class="pill">OpenRouter</span><span class="pill">Apache 2.0</span>
+  </div>
+  <div class="links">
+   <a href="https://avaluev.github.io/padel-market-analysis/">Live site →</a>
+   <a href="https://github.com/avaluev/padel-market-analysis">Source →</a>
+  </div>
+ </article>
+</div>
+
+<h2>Tooling &amp; experiments</h2>
+<p class="section-lede">Smaller open-source projects — each one a self-contained answer to a specific recurring problem.</p>
+<div class="grid two">
+
+ <article class="project">
+  <header>
+   <h3><a href="https://github.com/avaluev/agent-factory">agent-factory</a></h3>
+   <span class="tag">Open source</span>
+  </header>
+  <p>A Python toolkit for spinning up bounded sub-agents that collaborate on research and synthesis tasks under Claude Code orchestration. Bounded means each sub-agent has a narrow brief, a hard token budget, and a structured output schema — so the orchestrator can compose them deterministically.</p>
+  <div class="meta"><span class="pill">Python</span></div>
+  <div class="links"><a href="https://github.com/avaluev/agent-factory">Source →</a></div>
+ </article>
+
+ <article class="project">
+  <header>
+   <h3><a href="https://github.com/avaluev/linkedin_telegram_claude">linkedin_telegram_claude</a></h3>
+   <span class="tag">Automation</span>
+  </header>
+  <p>Pipeline that converts a LinkedIn long-form post into a Telegram-shaped note via the Claude API — preserving the argument while reformatting for the channel's voice and length norms. Used daily to publish from one source to two surfaces with zero manual reformatting.</p>
+  <div class="meta"><span class="pill">Python</span><span class="pill">Claude API</span></div>
+  <div class="links"><a href="https://github.com/avaluev/linkedin_telegram_claude">Source →</a></div>
+ </article>
+
+ <article class="project">
+  <header>
+   <h3><a href="https://github.com/avaluev/telegram_issue_bot">telegram_issue_bot</a></h3>
+   <span class="tag">Ops glue</span>
+  </header>
+  <p>A Telegram bot that opens GitHub Issues from chat messages — tiny ops glue for solo workflows. Captures the message body, attaches a label, files the Issue against a configured repo, replies with the URL.</p>
+  <div class="meta"><span class="pill">Shell</span><span class="pill">Telegram Bot API</span></div>
+  <div class="links"><a href="https://github.com/avaluev/telegram_issue_bot">Source →</a></div>
+ </article>
+
+ <article class="project">
+  <header>
+   <h3><a href="https://github.com/avaluev/landing-page-mvp">landing-page-mvp</a></h3>
+   <span class="tag">Template</span>
+  </header>
+  <p>Minimal landing-page template for testing product hypotheses fast — tracking, opt-in, no framework lock-in. Designed to be cloned, branded in under an hour, and shipped to a custom domain by end of day.</p>
+  <div class="meta"><span class="pill">Python</span><span class="pill">HTML</span></div>
+  <div class="links"><a href="https://github.com/avaluev/landing-page-mvp">Source →</a></div>
+ </article>
+
+</div>
+
+<h2>What is not public yet</h2>
+<p class="section-lede">A handful of larger initiatives are still in private repos. Sanitised public mirrors will appear as the IP review clears each one.</p>
+<div class="grid two">
+ <article class="project">
+  <header>
+   <h3>Motion-research (working title)</h3>
+   <span class="tag">Coming soon</span>
+  </header>
+  <p>A research portfolio on commercial-vehicle ELD compliance and routing. Will follow the same eight-page evidence-graded pattern as the padel research, with all customer-identifying material stripped before the public version ships.</p>
+  <div class="meta"><span class="pill">Pending sanitisation</span></div>
+ </article>
+
+ <article class="project">
+  <header>
+   <h3>Career OS Engine</h3>
+   <span class="tag">Coming soon</span>
+  </header>
+  <p>The internal toolchain that powers the VALUEV CAREER coaching practice — resume parsing, role matching, and interview-question generation. The runtime stays private; an excerpted methodology brief may follow.</p>
+  <div class="meta"><span class="pill">TypeScript</span><span class="pill">Private</span></div>
+ </article>
+</div>
+
+<footer class="page-foot">
+ <div>© 2026 Alex Valuev · MIT licensed</div>
+ <div><a href="https://github.com/avaluev">Browse all repos →</a></div>
+</footer>
+
+</main>
+
+<script>
+(function () {
+  var btn = document.querySelector('.topnav .nav-toggle');
+  var menu = document.getElementById('primary-nav');
+  if (!btn || !menu) return;
+  function close() { btn.setAttribute('aria-expanded', 'false'); }
+  function open() {
+    btn.setAttribute('aria-expanded', 'true');
+    var first = menu.querySelector('a');
+    if (first) first.focus();
+  }
+  btn.addEventListener('click', function () {
+    btn.getAttribute('aria-expanded') === 'true' ? close() : open();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && btn.getAttribute('aria-expanded') === 'true') {
+      close();
+      btn.focus();
+    }
+  });
+  menu.addEventListener('click', function (e) {
+    if (e.target.tagName === 'A' && window.matchMedia('(max-width: 879px)').matches) {
+      close();
+    }
+  });
+})();
+</script>
+
+</body>
+</html>
