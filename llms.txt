@@ -7,7 +7,7 @@ Author: Alex Valuev. License: MIT. Repository: https://github.com/avaluev/avalue
 ## Pages
 - [Alex Valuev — Senior AI Product Manager & Career Coach](https://avaluev.github.io/index.html): Landing page. Senior Product Manager (11+ years, healthcare AI, FinTech, MedTech) and career coach to 100+ senior engineers. Featured public research, projects, and contact.
 - [About — Alex Valuev](https://avaluev.github.io/about.html): Long-form professional bio: career history from 2014 to present, leadership philosophy, technical and domain expertise, and the principles behind low-ego coaching leadership.
-- [Projects — public work by Alex Valuev](https://avaluev.github.io/projects.html): Public research and engineering projects, including the Central Asia B2G Intelligence research (UZ + KG), the padel-market-analysis evidence-graded research portfolio, and other open-source experiments.
+- [Projects — public work by Alex Valuev](https://avaluev.github.io/projects.html): Public research and engineering projects, including the Central Asia B2G Intelligence research (UZ + KG) with live country reports, the padel-market-analysis evidence-graded research portfolio, and other open-source experiments.
 - [Career Coaching for Senior Software Engineers — VALUEV CAREER](https://avaluev.github.io/coaching.html): Career coaching for senior software engineers: resume rewriting, behavioural interview preparation, salary negotiation. 100+ engineers coached since 2022. Run through Telegram and YouTube.
 - [Contact Alex Valuev](https://avaluev.github.io/contact.html): Email, LinkedIn, GitHub, Telegram, and YouTube channels. Available for senior product roles in AI healthcare and FinTech, and for one-on-one career coaching engagements.
 

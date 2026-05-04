@@ -55,7 +55,7 @@ LICENSE_URL = "https://opensource.org/licenses/MIT"
 # Hardcoded build date so feed/sitemap output is byte-for-byte identical
 # between local re-runs and CI rebuilds. Bump manually when content changes
 # materially. Format: ISO-8601 date (YYYY-MM-DD).
-BUILD_DATE = "2026-05-03"
+BUILD_DATE = "2026-05-04"
 
 # Page registry. Order matters for sitemap and llms.txt.
 # Entries: (filename, title, summary).
@@ -77,9 +77,10 @@ PAGES: list[tuple[str, str, str]] = [
     (
         "projects.html",
         "Projects — public work by Alex Valuev",
-        "Public research and engineering projects, including the padel-market-"
-        "analysis evidence-graded research portfolio, agent-factory multi-"
-        "agent orchestration, and other open-source experiments.",
+        "Public research and engineering projects, including the Central Asia "
+        "B2G Intelligence research (UZ + KG) with live country reports, the "
+        "padel-market-analysis evidence-graded research portfolio, and other "
+        "open-source experiments.",
     ),
     (
         "coaching.html",
@@ -229,8 +230,24 @@ def build_llms_txt() -> str:
         f"- [Full text]({_abs('llms-full.txt')}): All page bodies concatenated for retrieval contexts."
     )
     lines.append(
+        "- [Central Asia B2G Intelligence](https://avaluev.github.io/ca-b2g-research/): "
+        "External — Alex's just-shipped flagship research portfolio. 12-agent pipeline "
+        "producing a typed knowledge graph of B2G AI/digital-government opportunities in "
+        "Uzbekistan and Kyrgyzstan."
+    )
+    lines.append(
+        "- [Uzbekistan B2G report](https://avaluev.github.io/ca-b2g-research/uzbekistan/): "
+        "External — live country report. 50 initiatives, 17 Tier-A, 56 decrees, 27 donor "
+        "programmes, 30 live tenders, 72 decision-makers."
+    )
+    lines.append(
+        "- [Kyrgyzstan B2G report](https://avaluev.github.io/ca-b2g-research/kyrgyzstan/): "
+        "External — live country report. 50 initiatives, 11 Tier-A, 44 decrees, 29 donor "
+        "programmes, 20 live tenders, 45 decision-makers."
+    )
+    lines.append(
         "- [Padel research](https://avaluev.github.io/padel-market-analysis/): "
-        "External — Alex's flagship public research portfolio on padel coaching technology."
+        "External — earlier flagship public research portfolio on padel coaching technology."
     )
     lines.append("")
     return "\n".join(lines)

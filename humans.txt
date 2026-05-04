@@ -8,7 +8,7 @@ Coaching: https://t.me/itcareertech
 YouTube:  https://youtube.com/@itcareertech
 
 /* SITE */
-Last update:   2026-05-03
+Last update:   2026-05-04
 Language:      English
 Doctype:       HTML5
 Standards:     HTML5, WCAG AA, AI-search optimised

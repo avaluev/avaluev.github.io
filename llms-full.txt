@@ -35,15 +35,25 @@ Senior software engineers coached to land offers, get promoted, and raise salari
 
 **Day job:** Scaling AI clinical recommendations and chronic-disease prediction at SXOPE — a HIPAA, ISO 27001, and SOC 2-compliant value-based-care platform serving 100K+ patients across 1K+ US primary-care physicians.
 
-**Public research:** Maintaining the [padel-market-analysis](https://avaluev.github.io/padel-market-analysis/) evidence-graded research portfolio — eight pages, every numeric claim cited.
+**Public research:** Just shipped [Central Asia B2G Intelligence](https://avaluev.github.io/ca-b2g-research/) — a typed knowledge graph of 100 deployable AI/digital-government initiatives across Uzbekistan and Kyrgyzstan, plus live country reports for [Uzbekistan](https://avaluev.github.io/ca-b2g-research/uzbekistan/) and [Kyrgyzstan](https://avaluev.github.io/ca-b2g-research/kyrgyzstan/). Maintaining the [padel-market-analysis](https://avaluev.github.io/padel-market-analysis/) evidence-graded research portfolio in parallel.
 
 **Coaching:** One-on-one resume rewrites and behavioural interview prep, plus written and video lessons on the [VALUEV CAREER Telegram channel](https://t.me/itcareertech) and [YouTube](https://youtube.com/@itcareertech).
 
 ## Featured public work
 
-The flagship public project — an evidence-graded research portfolio built by a multi-agent pipeline. Two further research portfolios are pending sanitisation.
+Two flagship public research portfolios — both evidence-graded, both built by a multi-agent pipeline, both reproducible from open prompts. Live country reports for Uzbekistan and Kyrgyzstan are now public.
 
 [
+ Research · just shipped
+
+### Central Asia B2G Intelligence — UZ + KG
+
+A 12-agent research pipeline producing a typed knowledge graph of 100 deployable AI/digital-government initiatives across Uzbekistan and Kyrgyzstan, mapped to 100 decrees, 105 institutions, 117 decision-makers, 49 donor programmes, and 50 live tenders. 882 records, every numeric claim source-cited, 16-specialist AI Audit Team verifies every page on every build.
+
+100 initiatives · 882 records · 16 audit specialistsApache 2.0Live ↗
+
+](https://avaluev.github.io/ca-b2g-research/)
+ [
  Research
 
 ### Padel coaching tech — independent research
@@ -53,16 +63,8 @@ Multi-agent research pipeline producing an evidence-graded eight-page strategic 
 HTMLApache 2.0Live ↗
 
 ](https://avaluev.github.io/padel-market-analysis/)
- [
- More
 
-### All projects →
-
-The full projects index — flagship work, what is in private repos pending sanitisation, and what is shipping next.
-
-5 entriesUpdated weekly
-
-](projects.html)
+**Live country reports:** [Uzbekistan ↗](https://avaluev.github.io/ca-b2g-research/uzbekistan/) · [Kyrgyzstan ↗](https://avaluev.github.io/ca-b2g-research/kyrgyzstan/) · [source on GitHub ↗](https://github.com/avaluev/ca-b2g-research) · [All projects →](projects.html)
 
 ## Career coaching, briefly
 
@@ -241,22 +243,33 @@ English — professional
 
 _Canonical: <https://avaluev.github.io/projects.html>_
 
-> Public research and engineering projects, including the padel-market-analysis evidence-graded research portfolio, agent-factory multi-agent orchestration, and other open-source experiments.
+> Public research and engineering projects, including the Central Asia B2G Intelligence research (UZ + KG) with live country reports, the padel-market-analysis evidence-graded research portfolio, and other open-source experiments.
 
 
 Projects
 
 # Public work, not slide decks.
 
-One flagship public project worth reading in depth — the padel research portfolio. Built as an evidence-graded, AI-search-optimised research artefact with a 14-check unified content + SEO quality gate. Two further research portfolios are in private repos pending sanitisation; their public versions will appear on this page when IP review clears.
+Two flagship public projects worth reading in depth — both evidence-graded, both built by multi-agent research pipelines, both reproducible from open prompts. The newest one ships live country reports for Uzbekistan and Kyrgyzstan. A handful of further portfolios are in private repos pending sanitisation; their public versions will appear here when IP review clears.
 
 ## Flagship
 
-A multi-agent research pipeline that produces an evidence-graded brief from a single prompt. Built as the reference implementation for everything else here.
+Multi-agent research pipelines that produce evidence-graded briefs from a single prompt. Built as the reference implementation for everything else here.
+
+A 12-agent, 7-wave research pipeline producing a typed, source-cited knowledge graph of **100 deployable AI/digital-government initiatives** across Uzbekistan and Kyrgyzstan, plus 200 solopreneur-MVP ideas grounded in the same graph. The graph maps every initiative to the specific decree, institution, decision-maker, donor programme, and global precedent it depends on. **882 records, 100 decrees, 105 institutions, 117 named decision-makers, 49 donor programmes, 50 live tenders** — every numeric claim is source-cited or marked `not_found`. A separate 16-specialist **AI Audit Team** (information architect, mobile-first QA, AI-search optimiser, accessibility, link-verifier, etc.) re-audits every page on every build.
+
+**Why this matters.** It is the proof point for "ship investment-grade market research from a single prompt." The repo is the working demonstration of multi-wave agent orchestration, cross-model verification on a strict $20 OpenRouter budget, and a 14-check content + SEO quality gate. Live country reports for [Uzbekistan](https://avaluev.github.io/ca-b2g-research/uzbekistan/) and [Kyrgyzstan](https://avaluev.github.io/ca-b2g-research/kyrgyzstan/) are now public.
+
+HTMLPythonClaude CodeOpenRouter12 agentsApache 2.0
+
+[Live site →](https://avaluev.github.io/ca-b2g-research/)
+ [UZ report →](https://avaluev.github.io/ca-b2g-research/uzbekistan/)
+ [KG report →](https://avaluev.github.io/ca-b2g-research/kyrgyzstan/)
+ [Source →](https://github.com/avaluev/ca-b2g-research)
 
 An eight-page strategic brief on padel coaching technology — competitor landscape, subscription economics, MVP design, and a 90-day operating plan. Every numeric claim has a verifiable source URL. The pipeline that built it runs under Claude Code and OpenRouter, fans out across multiple frontier models, and gates output through a 14-check unified content + SEO quality script before merge.
 
-**Why this matters.** The repo is the proof point for "ship functional research faster than most teams write specs." It demonstrates a working multi-agent orchestration pattern, an evidence-traceability discipline, and a mobile-first, AI-search-optimised publishing standard — all three of which carry directly into product work.
+**Why this matters.** The earlier reference implementation for everything else here. It demonstrates a working multi-agent orchestration pattern, an evidence-traceability discipline, and a mobile-first, AI-search-optimised publishing standard — all three of which carry directly into product work.
 
 HTMLPythonClaude CodeOpenRouterApache 2.0
 

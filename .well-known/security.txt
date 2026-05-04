@@ -1,5 +1,5 @@
 Contact: https://www.linkedin.com/in/valuev/
 Contact: mailto:valuev.alexandr@gmail.com
-Expires: 2027-05-03T00:00:00.000Z
+Expires: 2027-05-04T00:00:00.000Z
 Preferred-Languages: en, ru
 Canonical: https://avaluev.github.io/.well-known/security.txt
