@@ -7,10 +7,13 @@ Author: Alex Valuev. License: MIT. Repository: https://github.com/avaluev/avalue
 ## Pages
 - [Alex Valuev — Senior AI Product Manager & Career Coach](https://avaluev.github.io/index.html): Landing page. Senior Product Manager (11+ years, healthcare AI, FinTech, MedTech) and career coach to 100+ senior engineers. Featured public research, projects, and contact.
 - [About — Alex Valuev](https://avaluev.github.io/about.html): Long-form professional bio: career history from 2014 to present, leadership philosophy, technical and domain expertise, and the principles behind low-ego coaching leadership.
-- [Projects — public work by Alex Valuev](https://avaluev.github.io/projects.html): Public research and engineering projects, including the padel-market-analysis evidence-graded research portfolio, agent-factory multi-agent orchestration, and other open-source experiments.
+- [Projects — public work by Alex Valuev](https://avaluev.github.io/projects.html): Public research and engineering projects, including the Central Asia B2G Intelligence research (UZ + KG), the padel-market-analysis evidence-graded research portfolio, and other open-source experiments.
 - [Career Coaching for Senior Software Engineers — VALUEV CAREER](https://avaluev.github.io/coaching.html): Career coaching for senior software engineers: resume rewriting, behavioural interview preparation, salary negotiation. 100+ engineers coached since 2022. Run through Telegram and YouTube.
 - [Contact Alex Valuev](https://avaluev.github.io/contact.html): Email, LinkedIn, GitHub, Telegram, and YouTube channels. Available for senior product roles in AI healthcare and FinTech, and for one-on-one career coaching engagements.
 
 ## Optional
 - [Full text](https://avaluev.github.io/llms-full.txt): All page bodies concatenated for retrieval contexts.
-- [Padel research](https://avaluev.github.io/padel-market-analysis/): External — Alex's flagship public research portfolio on padel coaching technology.
+- [Central Asia B2G Intelligence](https://avaluev.github.io/ca-b2g-research/): External — Alex's just-shipped flagship research portfolio. 12-agent pipeline producing a typed knowledge graph of B2G AI/digital-government opportunities in Uzbekistan and Kyrgyzstan.
+- [Uzbekistan B2G report](https://avaluev.github.io/ca-b2g-research/uzbekistan/): External — live country report. 50 initiatives, 17 Tier-A, 56 decrees, 27 donor programmes, 30 live tenders, 72 decision-makers.
+- [Kyrgyzstan B2G report](https://avaluev.github.io/ca-b2g-research/kyrgyzstan/): External — live country report. 50 initiatives, 11 Tier-A, 44 decrees, 29 donor programmes, 20 live tenders, 45 decision-makers.
+- [Padel research](https://avaluev.github.io/padel-market-analysis/): External — earlier flagship public research portfolio on padel coaching technology.
